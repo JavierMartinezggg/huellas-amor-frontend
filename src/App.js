@@ -16,7 +16,7 @@ function Login({ onSwitchToRegister }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Login funcionando - Conectar con PHP después');
+    alert('Login funcionando ');
   };
 
   return (
@@ -83,7 +83,7 @@ function Register({ onSwitchToLogin }) {
       return;
     }
     
-    alert('Registro funcionando - Conectar con PHP después');
+    alert('Registro funcionand');
   };
 
   return (

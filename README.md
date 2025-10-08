@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+  INFORMACIÓN DEL EVIDENICA : GA7-220501096-AA4-EV03
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Programa: Análisis y Desarrollo de Software - SERVICIO NACIOANL DE APRENDIZAJE - SENA
 
-## Available Scripts
+Componente frontend del proyecto formativo en React JS
 
-In the project directory, you can run:
+Aprendiz: Javier Ernesto Martinez Caicedo
 
-### `npm start`
+FICHA:2957808
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+INSTRUCTOR:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Andres Felipe Quevedo
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+DESCRIPCIÓN
+Frontend desarrollado en React JS para el sistema de gestión de "Huellas de Amor Pet Shop", implementando el módulo de autenticación de usuarios con interfaz moderna y responsive
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+FUNCIONES PRINCIPALES
+Sistema de Registro - Formulario completo con validaciones
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sistema de Login - Autenticación de usuarios
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Navegación SPA - Entre componentes sin recarga
 
-### `npm run eject`
+Validaciones en Tiempo Real - Contraseñas, email, campos requeridos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Diseño Responsive - Adaptable a diferentes dispositivos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Manejo de Estado - Con React Hooks (useState)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+HERRAMIENTAS UTILIZADAS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Frontend: React 18, JavaScript 
 
-## Learn More
+Navegación: React Router DOM
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Estilos: CSS + CSS-in-JS
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Control de Versiones: Git & GitHub
 
-### Code Splitting
+Desarrollo: Visual Studio Code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+COMO SE EJECUTO
+# Clonar o descomprimir el proyecto
+cd huellas-amor-react
 
-### Analyzing the Bundle Size
+# Instalar
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Ejecutar en modo desarrollo
+npm start
 
-### Making a Progressive Web App
+RUTA APLICACION 
+# http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+COMO SE USA P LA APLICACION
+ 
+ Asi se crea una cuenta
 
-### Advanced Configuration
+Desde el Login: Haz clic en "Regístrate aquí"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Completa el formulario:
 
-### Deployment
+ Nombre completo 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+ Email válido 
 
-### `npm run build` fails to minify
+ Contraseña (mínimo 6 caracteres)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ Confirmar contraseña (debe ser igual a la anterior)
+
+Haz clic en "Crear cuenta"
+
+saldra el mensaje: "Registro exitoso "
+
+& PARA INICIAR SESION 
+
+Desde el Registro: Haz clic en "Entrar aquí"
+
+Completa el formulario:
+
+ Email registrado
+
+ Contraseña
+
+Haz clic en "Entrar"
+
+Verás mensaje: "Login exitoso 
+
+ VALIDACIONES AUTOMÁTICAS
+Los campos vacíos - No permite enviar formulario
+
+El formato email - Valida que sea email válido
+
+ Contraseñas - Deben coincidir y tener 6+ caracteres
+
+ LINK REPOISOTIO 
