@@ -12,6 +12,10 @@ INSTRUCTOR:
 
 Andres Felipe Quevedo
 
+Repositorio en GitHub: https://github.com/JavierMartinezggg/huellas-amor-frontend
+
+
+
 
 DESCRIPCIÓN
 Frontend desarrollado en React JS para el sistema de gestión de "Huellas de Amor Pet Shop", implementando el módulo de autenticación de usuarios con interfaz moderna y responsive
@@ -96,4 +100,4 @@ El formato email - Valida que sea email válido
 
  Contraseñas - Deben coincidir y tener 6+ caracteres
 
- LINK REPOISOTIO 
+ 
